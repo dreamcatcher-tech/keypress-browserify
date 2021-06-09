@@ -1,15 +1,15 @@
 {
-  "name": "keypress",
+  "name": "keypress-browserify",
   "version": "0.2.1",
   "description": "Make any Node ReadableStream emit \"keypress\" events",
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "author": "Forked from Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/keypress.git"
+    "url": "git://github.com/dreamcatcher-tech/keypress-browserify.git"
   },
   "keywords": [
     "keypress",
