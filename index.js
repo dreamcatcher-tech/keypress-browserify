@@ -4,6 +4,7 @@
  */
 
 var EventEmitter = require('events').EventEmitter;
+var Buffer = require('buffer').Buffer
 
 /**
  * Module exports.

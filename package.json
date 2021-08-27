@@ -16,5 +16,9 @@
     "readline",
     "core"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "string_decoder": "^1.3.0"
+  }
 }
