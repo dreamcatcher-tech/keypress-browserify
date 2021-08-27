@@ -4,6 +4,9 @@
   "description": "Make any Node ReadableStream emit \"keypress\" events",
   "author": "Forked from Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
