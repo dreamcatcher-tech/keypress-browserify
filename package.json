@@ -1,6 +1,6 @@
 {
   "name": "keypress-browserify",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Make any Node ReadableStream emit \"keypress\" events",
   "author": "Forked from Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "main": "index.js",
