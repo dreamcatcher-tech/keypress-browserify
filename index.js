@@ -36,10 +36,11 @@ exports = module.exports = keypress;
  * @api public
  */
 
+var StringDecoder = require('string_decoder').StringDecoder; // lazy load
+
 function keypress(stream) {
   if (isEmittingKeypress(stream)) return;
 
-  var StringDecoder = require('string_decoder').StringDecoder; // lazy load
   stream._keypressDecoder = new StringDecoder('utf8');
 
   function onData(b) {
